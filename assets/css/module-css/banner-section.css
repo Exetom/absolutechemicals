@@ -35,7 +35,7 @@
 	-webkit-transform: scale(1);
 	-ms-transform:scale(1);
 	transform:scale (1);
-    transition: all .8s ease-in-out .4s;
+    transition: all 3s ease-in-out 1s;
     z-index: 1;
 }
 .main-slider .slide .image-layer:before{
@@ -604,6 +604,11 @@
 .main-slider.style2 .content .big-title h2 {
     color: #ffffff;
     font-size: 72px;
+}
+
+.main-slider.style2 .content .big-title h3 {
+    color: #ffffff;
+    font-size: 45px;
 }
 
 .main-slider.style2 .content .text {

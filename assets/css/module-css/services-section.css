@@ -264,6 +264,7 @@
 }
 .single-service-style2 .img-holder .inner img{
     width: 100%;
+    height: 220px;
 }
 .single-service-style2:hover .img-holder .inner img{
     transform: scale(1.2) rotate(1deg);

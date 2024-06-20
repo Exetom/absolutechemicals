@@ -3397,8 +3397,8 @@ select:focus {
 }
 .working-process-style2-image{
     position: absolute;
-    top: 80px;
-    left: 0;
+    top: 131px;
+    left: 241px;
     bottom: 0;
     right: 0;
     display: block;
@@ -3864,15 +3864,16 @@ select:focus {
 }
 .contact-style2_image-box img{
     max-width: none;
+    margin-top: 7%;
     float: right;
 }
 .contact-style2_image-box .thm-round-box1{
     position: absolute;
-    top: 120px;
+    top: 0px;
     left: auto;
     bottom: auto;
-    right: 100px;  
-} 
+    right: 0px;
+}
 
 
 .contact-form-box1--style2 {
@@ -3895,7 +3896,7 @@ select:focus {
 }
 .contact-form-box1--style2 form .input-box .icon {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0px;
     bottom: 0;
     width: 55px;

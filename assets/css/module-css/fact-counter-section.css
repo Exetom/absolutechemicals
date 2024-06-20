@@ -146,7 +146,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(var(--thm-base-rgb), .92);
+    background-color: rgb(0 55 114 / 74%);
     border-radius: 10px;
 }
 

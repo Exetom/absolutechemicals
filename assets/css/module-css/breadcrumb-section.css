@@ -39,12 +39,24 @@
     z-index: 1;
 }
 .breadcrumb-area .title h2{
-    color: #151515;
     font-size: 60px;
+    line-height: 1.3em;
+    text-transform: capitalize;
+    background-clip: text;
+    background-image: linear-gradient(to bottom left, #001544, #000000);
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #001d40, 0px 0px 10px #001830, 0px 0px 10px #0036f9, 0px 0px 20px #005aff;
+}
+
+.breadcrumb-area .title h3{
+    color: #151515;
+    font-size: 40px;
     line-height: 1.3em;
     font-weight: 700;
     text-transform: capitalize;
 }
+
 
 .breadcrumb-menu{
     position: relative;

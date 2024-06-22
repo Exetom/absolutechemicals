@@ -117,6 +117,14 @@
     text-transform: capitalize;
 }
 
+.main-slider .content .big-title h5{
+	color: #ffffff;
+	font-size: 45px;
+	line-height: 1.20em;
+	font-weight: 700;
+    text-transform: capitalize;
+}
+
 
 .main-slider .content .text{
     position: relative;

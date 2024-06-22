@@ -55,11 +55,13 @@
     position: relative;
     display: block;
     margin-bottom: 32px;
+    margin-top: -9%;
 }
 .single-footer-widget .our-company-info .footer-logo a{
     position: relative;
     display: inline-block;
 }
+
 .single-footer-widget .our-company-info .text-box {
     position: relative;
     display: block;

@@ -2641,7 +2641,18 @@ select:focus {
     background-size: cover;
     z-index: -1;
     transition: all 500ms ease;
+    opacity: 0.3;
 }
+
+.features-style1_one-content-bg::before{
+        content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 .features-style1_one-content-bg:hover{
     transform: scale(1.02);    
 }
@@ -2718,6 +2729,7 @@ select:focus {
     background-size: cover;
     z-index: -1;
     transition: all 500ms ease;
+    opacity: 0.8;
 }
 .features-style1_single-box:hover .features-style1_single-box-bg{
     transform: scale(1.05);
@@ -2738,9 +2750,13 @@ select:focus {
     font-size: 30px;
     line-height: 40px;
     margin: 0 0 11px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #001d40, 0px 0px 10px #001830, 0px 0px 10px #707174, 0px 0px 20px #585858;
 }
 .features-style1_single-box .inner-content p{
     margin: 0;
+    color: white;
+    font-weight: 900;
 }
 .features-style1_single-box .inner-content .btn-box{
     position: relative;
@@ -3066,7 +3082,7 @@ select:focus {
     left: 0;
     bottom: 0;
     right: 0; 
-    background-color: rgba(var(--thm-base-rgb), .92);
+    background-color: rgb(8 36 66 / 84%);
 }
 .working-process-area .row{
     counter-reset: count;  
@@ -3076,8 +3092,8 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    background-color: rgba(var(--thm-primary-rgb), 0.25);
-    padding: 44px 50px 60px;
+    background-color: rgb(162 164 165 / 58%);
+        padding: 44px 50px 60px;
     border-radius: 10px;
     margin-bottom: 40px;
 }
@@ -3397,8 +3413,8 @@ select:focus {
 }
 .working-process-style2-image{
     position: absolute;
-    top: 131px;
-    left: 241px;
+    top: 135px;
+    left: 0;
     bottom: 0;
     right: 0;
     display: block;

@@ -69,6 +69,10 @@
     position: relative;
     display: inline-block;
 }
+
+.sticky-header .logo a img{
+    max-width: 100%;
+}
 .sticky-header .main-menu .navigation> li {
     margin-right: 50px;
 }

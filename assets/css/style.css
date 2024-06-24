@@ -1852,14 +1852,14 @@ select:focus {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background: #ecf2f6;
     border: 1px solid #dae5ec;
     border-radius: 10px;
-    padding-left: 20px;
-    margin: 10px 0 0;
+   margin: 10px 100px 0;
+    padding: 8px 0 8px 0;
 }
 .product-quantity-box .input-box{
     position: relative;
@@ -1960,8 +1960,8 @@ select:focus {
     border-left: 1px solid #dae5ec;
     background: #ffffff;
     text-align: center;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+
 }
 .product-quantity-box .rate-box h3{
     color: var(--thm-primary);

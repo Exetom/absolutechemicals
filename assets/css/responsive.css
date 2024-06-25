@@ -431,6 +431,15 @@
     display: none;
 }
 
+.main-slider.style1 .content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+
 /*** Fact Counter Area Css ***/ 
 .fact-counter-area {
     padding: 54px 0 11px;
@@ -969,6 +978,19 @@
     display: none;
 }    
 
+.main-slider.style1 .slide {
+    width: 100%;
+}
+.main-slider.style1 .content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.main-slider .slider-image img {
+    width: 25%;
+    opacity: .6;}
 
 /*** Header Style one Css ***/  
 .header .outer-box {
@@ -2102,17 +2124,129 @@
 
 
 
-
-
-
-
-
-
 }
 
 
 
-@media only screen and (min-width: 1200px) and (max-width: 1550px) {  
+@media only screen and (min-width: 1801px) and (max-width: 2560px) {  
+
+    /*** Header Style Two Css ***/ 
+    .header-top_middle--style2 {
+        display: none;
+    }
+    .header-right--style2 .header-right_buttom {
+        display: none;
+    }
+    .header-right--style2 .space-box2 {
+        display: none;
+    }
+    .header-right--style2 .shopping-cart-box{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    .main-slider .active .slider-bg-box {
+        opacity: 0.80;
+        max-width: 850px;
+    }
+
+    .main-slider .slider-image img{
+        width: 70%;
+    }
+    
+    .main-slider.style1 .content {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-left: -117px; 
+        z-index: 10;}
+    
+    .main-slider .slider-image{
+        right: -87px;
+        bottom: 83px;
+    
+    }
+    .main-slider .slider-image img{
+        width: 65%;
+    }
+        
+    .main-slider .content .big-title h2 {
+        font-size: 61px;}
+    
+        .main-slider .content .big-title h5 {
+            font-size: 28px;}
+    
+        .main-slider .round-box {
+            top: 140px;}
+        
+    
+    
+    
+    }
+
+
+
+@media only screen and (min-width: 1551px) and (max-width: 1800px) {  
+
+    /*** Header Style Two Css ***/ 
+    .header-top_middle--style2 {
+        display: none;
+    }
+    .header-right--style2 .header-right_buttom {
+        display: none;
+    }
+    .header-right--style2 .space-box2 {
+        display: none;
+    }
+    .header-right--style2 .shopping-cart-box{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    .main-slider .active .slider-bg-box {
+        opacity: 0.80;
+        max-width: 800px;
+    }
+    .main-slider .slider-image{
+        right: -200px;
+    }
+    .main-slider .slider-image img{
+        width: 70%;
+    }
+    
+    .main-slider.style1 .content {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-left: -72px; 
+        z-index: 10;}
+    
+    .main-slider .slider-image{
+        right: -256px;
+        bottom: 10px;
+    }
+    .main-slider .slider-image img{
+        width: 65%;
+    }
+        
+    .main-slider .content .big-title h2 {
+        font-size: 61px;}
+    
+        .main-slider .content .big-title h5 {
+            font-size: 28px;}
+    
+        .main-slider .round-box {
+            top: 140px;}
+        
+    
+    
+    
+    }
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1550px) {  
 
 /*** Header Style Two Css ***/ 
 .header-top_middle--style2 {
@@ -2130,6 +2264,44 @@
 }
 
 
+.main-slider .active .slider-bg-box {
+    opacity: 0.80;
+    max-width: 700px;
+    width: 50%;
+}
+.main-slider .slider-image{
+    right: -200px;
+}
+.main-slider .slider-image img{
+    width: 70%;
+}
+
+.main-slider.style1 .content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 0px; 
+    z-index: 10;}
+
+.main-slider .slider-image{
+    right: -350px;
+    bottom: 90px;
+}
+.main-slider .slider-image img{
+    width: 50%;
+}
+    
+.main-slider .content .big-title h2 {
+    font-size: 48px;}
+
+    .main-slider .content .big-title h5 {
+        font-size: 28px;}
+
+    .main-slider .round-box {
+        top: 140px;}
+    
+
+
 
 }
 @media only screen and (min-width: 1200px) and (max-width: 1390px) { 
@@ -2141,10 +2313,12 @@
 .main-slider .slider-bg-box{
     opacity: 0;
     max-width: 700px;
+    width:45%;
 }
 .main-slider .active .slider-bg-box {
     opacity: 0.80;
     max-width: 700px;
+    width: 50%;
 }
 .main-slider .slider-image{
     right: -200px;
@@ -2153,12 +2327,34 @@
     width: 70%;
 }
 
+.main-slider.style1 .content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 0px; 
+    z-index: 10;}
+
+.main-slider .slider-image{
+    right: -350px;
+    bottom: 90px;
+}
+.main-slider .slider-image img{
+    width: 50%;
+}
     
-    
+.main-slider .content .big-title h2 {
+    font-size: 45px;}
+
+    .main-slider .content .big-title h5 {
+        font-size: 28px;}
+
+    .main-slider .round-box {
+        top: 140px;}
     
 }
 
-
+    
+    
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) { 
@@ -2174,11 +2370,19 @@
 .main-slider .slider-bg-box{
     opacity: 0;
     max-width: 600px;
+    width: 35%;
 }
 .main-slider .active .slider-bg-box {
-    opacity: 0.80;
+    opacity: 0.7;
     max-width: 600px;
 }
+.main-slider.style1 .content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 0px; 
+    z-index: 10;}
+
 .main-slider .slider-image{
     right: -350px;
     bottom: 150px;
@@ -2186,17 +2390,15 @@
 .main-slider .slider-image img{
     width: 50%;
 }
-
-
-
-
-
-
-
-
-  
     
-    
+.main-slider .content .big-title h2 {
+    font-size: 43px;}
+
+    .main-slider .content .big-title h5 {
+        font-size: 28px;}
+
+    .main-slider .round-box {
+        top: 106px;}
     
 }
 
@@ -2226,7 +2428,7 @@
     opacity: .6;
 }
 .main-slider .round-box {
-    top: 200px;
+    top: 132px;
     right: 10%;
 }
 
@@ -2351,12 +2553,28 @@
 .main-slider .round-box {
     top: 100px;
     right: 10%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.main-slider .round-box h2{
+    font-size: 20px;
+}
+.main-slider .round-box h3{
+    font-size: 15px;
+}
+.main-slider .round-box p{
+    font-size: 13px;
 }
 .main-slider .content .big-title h2 {
     font-size: 30px;
 }
 .main-slider .content .big-title h2 br{
     display: none;
+}
+.main-slider .content .big-title h5{
+    font-size: 25px;
 }
 .main-slider .content .text p br{
     display: none;

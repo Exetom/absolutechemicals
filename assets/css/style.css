@@ -735,6 +735,7 @@ li{
     font-weight: 400;
     cursor: pointer;
     transition: all 500ms ease;
+    margin-right: 31px;
 }
 .serach-button-style1 .search-toggler:hover{
     background: var(--thm-primary);

@@ -150,9 +150,17 @@
     font-weight: 600;
     font-family: var(--thm-font-2);
 }
-.header-contact-info1 ul li:last-child{
+.header-contact-info1 ul li:last-child::before{
     margin-right: 0;
     padding-right: 0;
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 0;
+    bottom: 2px;
+    width: 0px;
+    background-color: #ffffff;
+    opacity: 0.20;
 }
 .header-contact-info1 ul li:before{
     content: "";
@@ -998,12 +1006,11 @@
     position: relative;
     display: block;
 }
-.header-social-link-1 .social-link ul{}
 .header-social-link-1 .social-link ul li{
     position: relative;
     display: inline-block;
     float: left;
-    margin-right: 10px;
+    margin-right: 26px;
 }
 .header-social-link-1 .social-link ul li:last-child{
     margin-right: 0;

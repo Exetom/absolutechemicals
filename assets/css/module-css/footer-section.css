@@ -286,13 +286,14 @@
     max-width: 1360px;
 }
 .footer-style2 .outer-box{
+    
     position: relative;
     display: block;
     background: #ecf2f6;
     padding: 80px 80px 60px;
-    border-radius: 10px;
+    border-radius: 48px;
     z-index: 10;
-    margin-top: -200px;
+    margin-top: -68px;
 }
 
 .single-footer-widget-style2{

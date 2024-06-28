@@ -34,8 +34,14 @@
     box-shadow: 0px 0px 30px 0px #0000001a;
     padding: 40px 40px 32px;
     border-radius: 10px;
-    height: 520px;
+    height: 635px;
 }
+
+.service-details-area-section{
+    width: 100%;
+    max-width: 1470px;
+    }
+
 .single-service-style1__bg {
     position: absolute;
     top: 0;

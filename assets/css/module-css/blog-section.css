@@ -292,9 +292,10 @@
     padding: 35px 10px 18px;
 }
 .single-blog-style3 .text-holder .blog-title {
-    font-size: 30px;
-    line-height: 40px;
+   
     margin-bottom: 19px;
+    font-size: 47px;
+    line-height: 59px;
 }
 
 
@@ -534,7 +535,13 @@
     color: var(--thm-base);
 }
 
-
+.blog-details-text-2 ul li ul li:before{
+    color: black;
+    position: absolute;
+    left: 0;
+    content: "\2022";
+    font-size: 30px;
+}
 
 .tag-social-share-box {
     position: relative;

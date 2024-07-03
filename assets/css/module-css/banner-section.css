@@ -537,19 +537,22 @@
     bottom: 0;
     right: 0;
     text-align: center;
-    color: rgba(255, 255, 255, 0.90);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     line-height: 25px;
     font-weight: 500;
-    counter-increment: count;
-    content: "0" counter(count);
     transition: all 100ms linear;
     transition-delay: 0.1s;
-    font-family: var(--thm-font-2);
+     font-family: 'icomoon' !important;
+   content: "\e916";
+   /**font-family: 'Arial', sans-serif; 
+    content: "\25C6";**/
 }
 .main-slider .banner-carousel.owl-carousel button.owl-dot.active:before{
-    color: var(--thm-black);
+    
+    color: #00c8ff;
     font-size: 22px;
+    
 }
 
 

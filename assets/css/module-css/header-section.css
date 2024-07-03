@@ -348,6 +348,8 @@
     display: flex;
     align-items: center;
     z-index: 2;
+    flex-grow: 0.3;
+    justify-content: space-between;
 }
 .header-right .nav-outer {
     position: relative;
@@ -381,7 +383,7 @@
 .main-menu .navigation>li>a {
     position: relative;
     display: block;
-    padding: 33px 20px 37px;
+    padding: 33px 12px 37px;
     color: #151515;
     font-size: 15px;
     line-height: 30px;
@@ -751,7 +753,7 @@
 .header-right_buttom {
     position: relative;
     display: block;
-    margin-left: 40px;
+    
 }
 .header-right_buttom .btns-box {
     position: relative;

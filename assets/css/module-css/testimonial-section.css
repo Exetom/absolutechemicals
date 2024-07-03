@@ -158,6 +158,7 @@
     text-transform: capitalize;
     font-family: var(--thm-font);
     font-weight: 400;
+    padding-left: 4px;
 }
 
 

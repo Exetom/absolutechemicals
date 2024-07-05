@@ -733,8 +733,47 @@ content: "";
 }
 
 
+#product-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none;
+    
+}
 
+.btn-disabled {
+    pointer-events: none;
+    background-color: grey;
+    color: white;
+}
 
+.shop-btn-box{
+    display: flex;
+    justify-content: center;
+    margin: 21px 0px;
+}
+
+.shop-btn{
+position: relative;
+display: inline-block;
+overflow: hidden;
+padding-left: 30px;
+padding-right: 30px;
+background-color: transparent;
+color: #ffffff;
+font-size: 12px;
+line-height: 46px;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 38px;
+-webkit-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;
+font-family: var(--thm-font-2);
+text-shadow: 0px 5px 3px rgba(12, 21, 41, 0.1);
+z-index: 2;}
 
 
 /** search pop-up style **/
@@ -1808,7 +1847,7 @@ select:focus {
     background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 20px 20px 50px;
-    height: 520px;
+    height: 560px;
 }
 .single-shop-item .img-holder{
     position: relative;
@@ -1864,11 +1903,11 @@ select:focus {
 
 .popup-content {
     position: relative;
-    margin: 14% auto;
-        padding: 20px;
+    margin: 13% auto;
+        padding: 45px;
     width: 100%;
-    max-width: 600px;
-    background-color: #fff;
+    max-width: 890px;
+        background-color: #fff;
     border-radius: 10px;
     text-align: center;
     animation: slideIn 0.5s;
@@ -1880,18 +1919,25 @@ select:focus {
 .popup-content .popup-data{
     display: block;
     text-align: left;
-    width: 374px;
+    padding-top: 15px;
 }
 
 .popup-content .popup-data img {
-    width: 95%;
+    width: 52%;
     height: auto;
     border-radius: 10px;
 }
 
+.popup-content .popup-data h6{
+    font-size: 18px;
+    color: #545454;
+    line-height: 1.37;
+    text-transform: capitalize;
+}
+
 
 .popup-content img {
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     margin-right: 40px;
@@ -1899,7 +1945,7 @@ select:focus {
 
 .popup-content h3 {
     margin: 20px 0 10px;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .popup-content p {
@@ -2070,7 +2116,8 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    padding-top: 27px;
+    padding: 27px 3px;
+    height: 100px;
 }
 .single-shop-item .title-holder h3{
     font-size: 20px;
@@ -3583,6 +3630,18 @@ background-color: rgb(1 32 46 / 57%);
     background-position: top right;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.contact-bg{
+    height: 87%;
+}
+
+.single-shop-item-index{
+    height: 475px;
+}
+
+.contact-row{
+    margin-top: 94px;
 }
 
 .contact-style1-content {

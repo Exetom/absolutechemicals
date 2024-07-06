@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "details": "A chemical additive used to break down and disperse particles or substances, preventing their agglomeration and aiding in their removal from the system, thus improving water quality."
         },
         {
-            "image": "assets/images/shop/shop.jpg",
+            "image": "assets/images/shop/shop-16.jpg",
             "title": "Wash Off",
             "description": "",
             "details": "A product designed specifically for removing substances or residues from surfaces, ensuring thorough cleaning and preparation for subsequent use or treatment."
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "details": "A biological substance used in textile processing to enhance fabric properties such as softness, smoothness, and appearance by removing protruding fibers and fuzz. They work by breaking down and removing cellulose microfibrils on the fabric surface, resulting in a smoother and cleaner fabric finish."
         },
         {
-            "image": "assets/images/shop/shop.jpg",
+            "image": "assets/images/shop/shop-18.jpg",
             "title": "Waiting Agent",
             "description": "",
             "details": "A chemical used to delay or control the release of another chemical or treatment in the water treatment process. This could be for optimizing the effectiveness of certain treatments or ensuring they are applied under specific conditions."
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "details": "A chemical used to remove or reduce color from wastewater or treated water. These agents work by breaking down color-causing compounds, such as dyes or organic materials, through chemical reactions, thereby improving the clarity and quality of the water."
         },
         {
-            "image": "assets/images/shop/shop.jpg",
+            "image": "assets/images/shop/shop-21.jpg",
             "title": "Anti Zipper ",
             "description": "",
             "details": "A chemical or additive designed to prevent the rapid and uneven progression of a reaction or process"

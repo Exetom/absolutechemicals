@@ -2178,7 +2178,11 @@
                 height: 479px;
             }
     
+            .pricing-plan-bg {
+               
+                background-size: cover;
     }
+}
 
 
 

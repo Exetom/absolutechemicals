@@ -3641,7 +3641,7 @@ background-color: rgb(1 32 46 / 57%);
 }
 
 .contact-row{
-    margin-top: 94px;
+    margin-top: 0px;
 }
 
 .contact-style1-content {
@@ -4273,7 +4273,7 @@ background-color: rgb(1 32 46 / 57%);
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(var(--thm-base-rgb), 0.9);
+    background: rgb(0 44 91 / 51%);
     content: "";
 }
 .pricing-plan-area .sec-title{
